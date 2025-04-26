@@ -16,11 +16,8 @@ RED = (255, 0, 0)
 buttoncolor = (100, 100, 255)
 
 flask = pygame.image.load("flask.png").convert_alpha()
-screen.blit(flask,(100,100))
 baking_soda = pygame.image.load("baking_soda.png").convert_alpha()
-screen.blit(baking_soda,(300,320))
 vinegar = pygame.image.load("vinegar.png").convert_alpha()
-screen.blit(vinegar,(100,100))
 
 # Positions
 flask_pos = [300, 320]
